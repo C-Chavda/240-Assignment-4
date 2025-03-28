@@ -1,3 +1,23 @@
+;****************************************************************************************************************************
+; Program name: Identify Nans.  This is a driver function used for testing the library function isnan.  This function sets  *
+; up a call to isnan.  The user can easily verify the correctness of isnan by visual inspection.                            *
+; This program is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public  *
+; License (LGPL3) version 3 as published by the Free Software Foundation.  This program is distributed in the hope that it  *
+; will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR*
+; PURPOSE.  See the GNU Lesser General Public License for more details.  A copy of the GNU Lesser Public License v3 is      *
+; available here: <https://www.gnu.org/licenses/>.                                                                          *
+;****************************************************************************************************************************
+; Programmer's name: F. Holliday
+; Email: holliday@fullerton.edu
+; Function name: isnan
+
+; Purpose:  This is a library function.  This function, isnan, will determine if an IEEE float number is a nan or not a nan.
+
+;This implementation of the isnan algorithm is intended to be the simplest and minimalist
+;implementation possible.
+
+
+
 global isnan
 
 segment .data
